@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    height: 140px;
+    align-items: center;
+}
+
+nav img {
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: auto; 
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;  
+}
+
+button {
+    border-radius: 28px;
+    margin: 25px 0;
+    height: 5vh;
+}
+
+.hero {
+    background-image: url("/assets/hero.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+}
